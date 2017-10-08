@@ -1,63 +1,60 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+title: Ashwathama
+description: > # this means to ignore newlines until "baseurl:"
+ Ashwathama is a minimal website with an app like design. It also features card layouts for website elements.
+baseurl: "/ashwath" # the subpath of your site, e.g. /blog
+url: "http://webjeda.com"
+permalink: :title/
+full-url: "http://ashwathama.s3-website-us-east-1.amazonaws.com/" # the base hostname & protocol for your site
 
-# Google webmaster tools
-google_verify:
 
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+# CSS
+sass:
+  style: compressed
 
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
-contact: static
+# Comments - Go to Disqus.com > sign up > get the short-name > insert it here
+disqus-shortname: 
 
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
+# Tracker
+analytics: UA-83979019-1
 
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+# Form Settings
+#
+# Contact form can be enabled by getting an API key from https://getsimpleform.com/
+simpleform-token: b6d4be9b039b666b3311e1ddcbfb577c
 
-# Footer settings
-footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
-  social: Around the Web
-  credits: Credits
+# Redirect users after submitting the form
+redirect-to: http://blog.webjeda.com/thank-you/
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+# Site version
+version: 0.9
 
-# Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
 
-# Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+# Post date background - This will change the background of the post date and tag ribbon according to the theme. If set to no default green background will be used. If yes then the theme color scheme is used.
+
+change-date-bg: no
+
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+
+include: [_pages] # Includes files inside _pages directory [Do not remove this]
+
+author:
+  name: Ashwathama
+  image: ashwat.jpg # The author image will be shown on the header. Place this image in /images/ folder.
+  about: Ashwathama is a sage who wrote Mahabharatha. He is the son of Drona. He fought on the Kaurava side against the Pandavas. He put up a pretty good fight with mighty Bhima.
+  twitter: webjeda  # https://twitter.com/ is automatically added
+  facebook: webjeda # https://facebook.com/ is automatically added
+  email: hello@webjeda.com # mailto: is automatically added
+  
+gems: 
+  - jekyll-seo-tag
+  - jekyll-paginate
