@@ -44,6 +44,7 @@ change-date-bg: no
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 
 include: [_pages] # Includes files inside _pages directory [Do not remove this]
 
@@ -55,6 +56,6 @@ author:
   facebook: webjeda # https://facebook.com/ is automatically added
   email: hello@webjeda.com # mailto: is automatically added
   
-gems: 
+plugins: 
   - jekyll-seo-tag
   - jekyll-paginate
