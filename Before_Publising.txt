@@ -1,1 +1,1 @@
-Put a link to the AABBs at the line 18 of the 2018-01-03-visualizing-the-collision-detection-system
+Put a link to the AABBs at the line 18 and 58 of the 2018-01-03-visualizing-the-collision-detection-system
