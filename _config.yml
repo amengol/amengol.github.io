@@ -29,7 +29,7 @@ navbar-links:
 #    - Design Patterns: "DesignPatterns"
 #    - Graphics: "aboutme"
   Portfolio:
-    - Programming: "http://deanattali.com/beautiful-jekyll/"
+    - Programming: "Programming/"
     - GitHub: "https://github.com/amengol"
     - FSX & P3D: "http://www.markdowntutorial.com/"    
   About Me: "aboutme"
