@@ -12,7 +12,7 @@ Before talking about me, please know that this `about me` is not a cold conventi
 
 Early in my childhood when I started discovering console games I became fascinated about them. How could they move a picture in the screen? How they "knew" when I had pushed a button? That was simply *magic* for me, but then I have been told that there was no such thing like magic.
 
-Again, I was fascinated on how a plane managed to fly. How could it be? A giant aircraft flew over my head and I started to wonder: what does push it upwards? That was simply *magic* to me too, but then again I was told that there was no such thing.
+Again, I was fascinated on how a plane managed to fly. How could it be? A giant aircraft flew over my head and I started to wonder: what does push it upwards? That was simply *magic* to me too, but then again I was told that there was no such thing like magic.
 
 Well, long story short (the long one I can tell in a bar) here I'm: A Computer Scientist, a Game Programmer and a FAA Pilot.
 
@@ -20,7 +20,7 @@ Well, long story short (the long one I can tell in a bar) here I'm: A Computer S
 
 However, I did discover that there is such thing like magic, it is not just what I expected. The magic was that I could learn how to do those things that fascinated me. This was when my interest about computers and aviation flourished.
 
-You might be wondering then if I have the time for being a commercial pilot and a game programmer at the same time. Well, I didn’t say I was a commercial pilot and in fact, that path was not my goal when I started to fly in the first place. I’m passionate about flying, not about being a “commercial pilot”. If I have been born with wings, problem would be solved already. In other words, what I like to do is to take a small plane and feel the joy of flying, `experience` it.
+You might be wondering then if I have the time for being a commercial pilot and a game programmer at the same time. Well, I didn’t say I was a commercial pilot and in fact, that path was not my goal when I started to fly in the first place. I’m passionate about flying, not about being a “commercial pilot”. If I had been born with wings, problem would be solved already. In other words, what I like to do is to take a small plane and feel the joy of flying, `experience` it.
 
 Same thing goes for games and programming. But here I did decide to go ahead and pursuit a career. 
 
