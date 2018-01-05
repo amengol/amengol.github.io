@@ -78,7 +78,7 @@ If you have a good eye you can see that some normals are printed outside the AAB
 
 ### The triangles
 
-Why bother showing the triangles as we already have a good idea of them through the mesh? Well, to make the test lighter, I decided to not check every triangle in an AABB. That way I could visualize only the triangles that would matter for that physics step. Imagine if you have a complex mesh, or say a terrain with a lot of houses on it. Do you really want to test collisions on triangles that are not facing the collision point? In other words, I decided to only test collisions on triangles where its normals were facing the test point. To achieve that, a simple math between the point and the normal with a Dot Product was needed. If the result was positive, it means that the triangle was facing the point and we should include it in the collision test. The code for that (inside the loop of triangles) is:
+Why bother showing the triangles as we already have a good idea of them through the mesh? Well, to make the test lighter, I decided to not check every triangle in an AABB. That way I could visualize only the triangles that would matter for that physics step. Imagine if you have a complex mesh, or say a terrain with a lot of houses on it. Do you really want to test collisions on triangles that are not facing the collision point?<sup>[1](#1)</sup> In other words, I decided to only test collisions on triangles where its normals were facing the test point. To achieve that, a simple math between the point and the normal with a Dot Product was needed. If the result was positive, it means that the triangle was facing the point and we should include it in the collision test. The code for that (inside the loop of triangles) is:
 
 ```c++
 glm::vec3 pointAtOrigin = point->position - triangle->centroid;
@@ -108,5 +108,7 @@ Have fun coding,
 
 Jorge Amengol.
 
+
+<a name="1"></a>_1. Later implementing the collision, I did find that I needed to test for inverted triangles, because the collision might have happened and the point will be under the triangle already (almost always) and we do have to check for them._
 
 
