@@ -1,9 +1,9 @@
 ---
 title: Visualizing the Collision Detection System
 layout: post
-category: DesignPartterns
 subtitle: Visualize it before doing it for real
-categories: Game Physics, Collision Detection
+category: game_physics
+tags: [Game Physics, Collision Detection, OpenGL]
 excerpt: Visualizing what you are trying to implement can play a big role in saving time at the actual implementation of your collision detection system. Also, implementing that visualization is half way through the process of actually implementing the collision that you have in mind, because in most cases you will use the same logic for both.
 ---
 
