@@ -5,6 +5,7 @@ subtitle: Collision Reaction
 category: game_physics
 tags: [Game Physics, Collision Detection, Collision Reaction]
 excerpt: GLM is a toolkit for working with OpenGL and its functions can make a Graphics programmer’s life way easier. However, sometimes we get so used to a function that we may not realize that it can serve to similar purposes. One example of this is using the inverse of a `glm::lookAt()`function to make a matrix orientation “look at” a target, instead of just using it to calculate the camera/view matrix. The other, and that I touch in this post is the `glm::reflect()`.
+image: /img/2018-01-06/Thumbnail.jpg
 ---
 
 Hi, I'm Jorge Amengol, a student of [Game Development - Advanced Programming](https://www.fanshawec.ca/programs-and-courses/program/gdp1-game-development-advanced-programming/next-year){:target="_blank"} at [Fanshawe College](https://www.fanshawec.ca/){:target="_blank"}, ON Canada. I decided to start this series of posts to register my own progress throughout the course and also to serve as reference for me on important subjects in the future. Though it is a personal record, you might find the subjects discussed here useful. Feel free to make comments at the end of each post.
