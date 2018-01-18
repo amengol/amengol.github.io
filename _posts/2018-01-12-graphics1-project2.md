@@ -6,6 +6,7 @@ category: game_graphics
 tags: [Game Graphics, Transparency, SkyBox, Spot Lights]
 excerpt: For this project, we had to "show off" some tech that we saw in class, specially spot lights, 2D Texturing, skyboxes, interactive control of camera and lights and transparency.
 image: /img/2018-01-12/Thumbnail.jpg
+comments: true
 ---
 
 Hi, I'm Jorge Amengol, a student of [Game Development - Advanced Programming](https://www.fanshawec.ca/programs-and-courses/program/gdp1-game-development-advanced-programming/next-year){:target="_blank"} at [Fanshawe College](https://www.fanshawec.ca/){:target="_blank"}, ON Canada. I decided to start this series of posts to register my own progress throughout the course and also to serve as reference for me on important subjects in the future. Though it is a personal record, you might find the subjects discussed here useful. Feel free to make comments at the end of each post.

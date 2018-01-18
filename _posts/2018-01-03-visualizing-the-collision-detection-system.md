@@ -6,6 +6,7 @@ category: game_physics
 tags: [Game Physics, Collision Detection, OpenGL]
 excerpt: Visualizing what you are trying to implement can play a big role in saving time at the actual implementation of your collision detection system. Also, implementing that visualization is half way through the process of actually implementing the collision that you have in mind, because in most cases you will use the same logic for both.
 image: /img/2018-01-03/Thumbnail.jpg
+comments: true
 ---
 
 Hi, I'm Jorge Amengol, a student of [Game Development - Advanced Programming](https://www.fanshawec.ca/programs-and-courses/program/gdp1-game-development-advanced-programming/next-year){:target="_blank"} at [Fanshawe College](https://www.fanshawec.ca/){:target="_blank"}, ON Canada. I decided to start this series of posts to register my own progress throughout the course and also to serve as reference for me on important subjects in the future. Though it is a personal record, you might find the subjects discussed here useful. Feel free to make comments at the end of each post.

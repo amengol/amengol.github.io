@@ -2,6 +2,7 @@
 title: Hello World!
 subtitle: It is a Hello World, but you may find it interesting!
 layout: post
+comments: true
 ---
 How do we start anything in the software developer world? Ok, you already saw the tittle, so here it is. But instead of just make a meaningless Hello World post, I want to talk more about how easy it can be to get a site like this up and running in a short period of time.
 
@@ -48,7 +49,7 @@ Creating your first GitHub Page is easy, just follow the steps here:
 <a href="https://pages.github.com/" target="_blank">https://pages.github.com/</a>
 
 ---
-Well, this should be enough for a Hello Word post, don't you think? Please feel free to contact me if you have any question on this via one of the methods at the end of this page.
+Well, this should be enough for a Hello Word post, don't you think? Please feel free to leave a comment or to contact me using any method at the bottom of this page.
 
 Thanks for reading,
 
