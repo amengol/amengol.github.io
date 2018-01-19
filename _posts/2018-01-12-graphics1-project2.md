@@ -36,6 +36,7 @@ An a more detailed description here:
 - The scene has to “make sense” (more details later).
 
 As you can see, a lot to cover for this one. So let me share some information on how I managed them.
+<a name="models"></a>
 
 ### The models
 
