@@ -13,33 +13,35 @@ Hi, I'm Jorge Amengol, a student of [Game Development - Advanced Programming](ht
 
 ### Introduction
 
-We've been playing around with PLY files for so long now that it just became natural for us to show at a PLY file and say exactly what is going to be rendered at the screen. Ok, not that much though, but they are so easy to read that I'm sure the Matrix universe (the movie) certainly has used them to describe polygons...  :)   
-Anyway, the problem is that there is an infinity of 3D file formats and surprisingly the PLY format is used more in an academic environment. Also, there might be much more information in a file than just vertices, normals and texture coordinates. 3D file formats can have from basic mesh information to a whole scene definition, including materials, cameras and animation to say just a few.    
-So this week, the first of the Winter term, we to the point to say farewell to the PLY format limitations and grow our engine a little bit. So, how to load different formats then?
+We've been playing around with PLY files for so long now that it just became natural for us to look at a PLY file and say exactly what is going to be rendered at the screen. Ok, not that much though, but they are so easy to read that I'm sure the Matrix universe (the movie) certainly has used them to describe polygons...  :)   
+Anyway, the problem is that there is an infinity of 3D file formats and surprisingly the PLY format is used more in an academic environment. Also, there might be much more information in a file than just *vertices, normals* and *texture coordinates*. 3D file formats can have from basic mesh information to a whole scene definition, including *materials, cameras* and *animation* to say just a few.    
+So last week, the first of the Winter term, we got to the point to say farewell to the PLY format limitations and grow our engine a little bit. So, how to load different formats then?
 
 ### Loading a new format
 
 ![3D formats]({{ "/img/2018-01-29/3d_formats.png" | absolute_url }})
 
 For the PLY file we made our own loader. It was pretty straight forward, due the model being very simple to understand and read. However, with the introduction of **Animation** classes in this Winter term, we are certainly going to need to load a different format, since PLY does not support animations. Also, an "animation" is not usually stored alone, and is very common to have one associated with a Mesh and other 3D informations, therefore the new "loader" will have to read those new information too.  
-We could have gone down that path, but besides the extra work to just get the model loaded, we would still have to be written different loaders from each different file format that we wanted to use and also for a different version of the same format, and that happens a lot. Wisely, our professor, Mr. Feeney made the right move and directed us to a very professional loader, so we can focus on more important content during the semester than just being making loaders.
+We could have gone down that path of making another loader, but besides the extra work to just get the model loaded, we would still have to be writing different loaders for each different file format that we wanted to use and also for a different version of the same format, and that happens a lot. Wisely, our professor, Mr. Feeney made the right move and directed us to a very professional loader, so we can focus on more important content during this semester than just making loaders.
 
 ### Assimp
 
-`Open Asset Import Library` (short name: [Assimp](http://assimp.sourceforge.net/){:target="_blank"}) is a portable Open Source library to import various well-known 3D model formats in a uniform manner. This is the open line of the website, but seriously, this tool is just fantastic. It takes almost whichever model we have and gives us a container (*a scene*) with all loaded informations so we can do whatever we want with it. One question though, why we didn't use it since the beginning?  
+`Open Asset Import Library` (short name: [Assimp](http://assimp.sourceforge.net/){:target="_blank"}) is a portable Open Source library to import various well-known 3D model formats in a uniform manner. This is the open line of the website, but seriously, this tool is just fantastic. It takes virtually any model we have and gives us a container (*a scene*) with all loaded informations so we can do whatever we want with it. One question though, why we didn't use it since the beginning?  
 Well, first of all, it would be like using sledgehammer to crack a nut. The format is a simple and well organize ASCII file.  
-Second, the PLY file is quite didactic and help us to understand how vertices and triangles relate in a 3D file. Also, all the normals and texture coordinates are very easy to read, with them in a same line. Making a loader for it just made us more aware of the inners of a 3D model.  
+Second, the PLY file is quite didactic and helped us understanding how vertices and triangles relate in a 3D file. Also, all the normals and texture coordinates are very easy to read with them in a same line. Making a loader for it just made us more aware of the inners of a 3D model.  
 Finally, how would we appreciate a loader like Assimp with we had get it right away?  
 
-Let's briefly take a look at it them.
+Let's briefly take a look at it then.
 
 ### What Assimp does and doesn't do for us
 
-Assimp is an awesome tool, but don't think it will put the models onto our VAO for us, or load our samplers with its textures, or make our loaded model and animation just be magic blended together in our engine. What it gives us is its own representation of those things, so we can go ahead an use them. We are still going to build a *loader* to use what Assimp gives us, but the good news is that we won't have to be changing it to conform with new formats every time we need to load a different format, Assimp does all that job and does it pretty well.
+Assimp is an awesome tool, but don't think it will put the models onto our VAO for us, or load our samplers with its textures, or make our loaded model and animation just be magic blended together in our engine. What it gives us is its own representation of those things, so we can go ahead an use them. We are still going to build a *loader* to use what Assimp gives us, but the good news is that we won't have to be changing it to conform with new formats every time we need to load a different format, Assimp does all that job for us and does it pretty well.
 
-### Assimp Structure
+### Assimp Basic Structure
 
-So, when we import a model using it, Assimp gives us a so called `aiScene`. For this tool, even if we are loading a simple mesh in a PLY format, it gives us back an "Scene", that is one class with all other informations that we want, like vertices, colours, texture coordinates etc. Most of the time, the *aiScene* will have at least one `aiMesh`, but can have multiples meshes. So, after loading our model, we just have to go thorough those [classes](http://assimp.sourceforge.net/lib_html/annotated.html){:target="_blank}, retrieve what we want and feed our engine pipeline with those information, like our VAO, or our texture loader. Of course this tool is very new to me, but for what it already did for my engine, I'm pretty impressed.
+So, when we import a model, Assimp gives us a so called `aiScene`. For this tool, even if we are loading a simple mesh in a PLY format, it gives us back a "Scene", that is one class with all other informations that we want, like vertices, colours, texture coordinates etc. Most of the time, the *aiScene* will have at least one `aiMesh`, but can have multiples meshes. So, after loading our model, we just have to go thorough those [classes](http://assimp.sourceforge.net/lib_html/annotated.html){:target="_blank}, retrieve what we want and feed our engine pipeline with that information, like our VAO, or our texture loader.  
+
+Of course there is much more about Assimp structure and this is just a brief description so you can have a feel on how it works.
 
 ### Conclusion
 
