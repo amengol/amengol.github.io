@@ -31,7 +31,7 @@ navbar-links:
   Portfolio:
     - Programming: "Programming/"
     - GitHub: "https://github.com/amengol"
-    - FSX & P3D: "http://www.markdowntutorial.com/"    
+ #   - FSX & P3D: "http://www.markdowntutorial.com/"    
   About Me: "aboutme"
 
 # Image to show in the navigation bar - image must be a square (width = height)
