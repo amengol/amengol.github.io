@@ -1,10 +1,24 @@
 ---
 layout: page
 title: Programming Projects
-subtitle: Game Programming Projects
+subtitle: Graphics and other Game Programming Projects
 ---
 
-These are some of the Programming Projects that I was actively developing during the Game Development - Advanced Programming course.
+These are some of the Programming Projects that I was actively developing during the [Game Development - Advanced Game Programming](https://www.fanshawec.ca/programs-and-courses/program/gdp1-game-development-advanced-programming/next-year){:target="_blank"}.
+
+### Game Jam (Graphics Technical Demo)
+
+[![Game Jam]({{ "/img/portfolio/Game_Jam.png" | absolute_url }})]({{ "/img/portfolio/Game_Jam.png" | absolute_url }}){:target="_blank"}
+
+This is my Game Engine showcasing some Graphics and Environment features at `Fanshawe’s Game Jam` on April 25th, 2018. It was based on the first stage of the acclaimed 80’s arcade game **Ghost’s n Goblins**.  
+The entire scene and featured technical aspects were assembled in only two weeks.  
+Everything were coded from the ground up using C++ and OpenGL (no third-party engines).  
+It worth mentioning that the presentation was very well received by the members of the Game Industry attending the event.  
+
+YouTube presentation of the project: 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JC51l57uUAI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+GitHub project: [Game_Jam](https://github.com/amengol/Game_Jam)
 
 ### (Game Physics) Real-time collision detection, AABBs, Debug Render etc (No third party physics)
 

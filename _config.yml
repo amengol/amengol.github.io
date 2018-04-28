@@ -17,7 +17,7 @@ baseurl: ""
 title: amengol.github.io
 
 # Short description of your site
-description: On Game Programming
+description: Graphics Programmer
 
 # --- Navigation bar options --- #
 
@@ -29,7 +29,7 @@ navbar-links:
 #    - Design Patterns: "DesignPatterns"
 #    - Graphics: "aboutme"
   Portfolio:
-    - Programming: "Programming/"
+    - Projects: "Projects/"
     - GitHub: "https://github.com/amengol"
  #   - FSX & P3D: "http://www.markdowntutorial.com/"    
   About Me: "aboutme"
