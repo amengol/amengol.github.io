@@ -3,8 +3,8 @@ title: Skinned Mesh Animations
 layout: post
 subtitle: We're finally here
 category: computer_graphics, animation_programming, graphics_programming
-tags: [Animation Programming, Graphics Programming, Computer Physics, OpenGL, Assimp]
-excerpt: This course has been a long and demanding journey, but we are finally coming to a topic that I have been waiting since the beginning. In fact, this topic drove me to this program at the first place, as I have a background in character animations.
+tags: [Animation Programming, Graphics Programming, Computer Physics, OpenGL]
+excerpt: This course has been a long and demanding journey, but we are finally coming to a topic that I have been waiting since the beginning. In fact, this topic drove me to this program at the first place, as I have a background in character animations. The interesting thing with my animation skills however is that I was always trying to understand how the animation itself worked. Like how the key-frames (discreet values) could produce a smooth movement? What a bone really was? How exactly the skin of a character could move around by its bones? etc.
 image: /img/2018-02-27/Skinned_Mesh00.png
 comments: true
 ---
@@ -15,7 +15,7 @@ Hi, I'm Jorge Amengol, a fresh graduated student of the [Game Development - Adva
 
 This course has been a long and demanding journey, but we are finally coming to a topic that I have been waiting since the beginning of it. In fact, this topic drove me to this program at the first place, as I have a [background in character animations for Flight Simulators](https://www.youtube.com/watch?v=28iLV-tjseA&list=PLQRI4GFL6REVO1k4Nmcy3nCDFGEaSpCy_){:target="_blank"}. 
 
-However, the interesting thing with my animation skills is that I was always trying to understand how the animation itself worked. Like how the key-frames (discreet values) could produce a smooth movement? What a bone really was? How exactly the skin of a character could move around by its bones? etc. Turns out that the Computer Scientist and the Math geek in me was screaming for answers and telling me that I was not quite doing what I really should but was very close. Looking for the answers I found that what I really should be doing was Graphics Programming, more specifically work with Animations from a programmer's perspective.  
+The interesting thing with my animation skills however is that I was always trying to understand how the animation itself worked. Like how the key-frames (discreet values) could produce a smooth movement? What a bone really was? How exactly the skin of a character could move around by its bones? etc. Turns out that the Computer Scientist and the Math geek in me was screaming for answers and telling me that I was not quite doing what I really should but was very close. Looking for the answers I found that what I really should be doing was Graphics Programming, more specifically work with Animations from a programmer's perspective.  
 
 Don't get me wrong, being an animator (artist) is really cool and I do have lots of hours as an animator, but I always felt that I had become one by accident, because of my **Flight Simulator Developer** history (I will talk about it in the future here). Today I feel that I'm definitely in the right place being a Graphics Programming and my previous experience with animation has being extremely helpful when it comes to understand the programmer side of it. But enough of that, let's get and overview of what we have being doing in class for the last few weeks for that matter.
 
