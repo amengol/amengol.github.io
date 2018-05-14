@@ -2,7 +2,7 @@
 title: Skinned Mesh Animations in the Vertex Shader
 layout: post
 subtitle: The overall idea
-category: computer_graphics, animation_programming, graphics_programming
+category: animation_programming
 tags: [Animation Programming, Graphics Programming, OpenGL]
 excerpt: In class we have implemented a full skinned mesh animation using Assimp. There are some thorough tutorials on the Internet about this, but here I will try to summarize only the Vertex Shader part of the process, as the solution to pass all the transformation may vary a lot in the C++ side.
 image: /img/2018-03-07/Thumbnail.png

@@ -2,7 +2,7 @@
 title: Fanshawe's Game Jam - Part1
 layout: post
 subtitle: The Final Project
-category: computer_graphics, animation_programming, graphics_programming, game_physics
+category: graphics_programming
 tags: [Animation Programming, Graphics Programming, OpenGL, Game Physics]
 excerpt: The biggest challenge in the GDP course is no doubt the Fanshawe’s Game Jam. This event is at the same time a final evaluation, a kind of a competition and a self-presentation to the Game Industry of what us, as Game Programmers, have to offer to the market and to possible employers.
 image: /img/2018-04-27/Thumbnail_00.png

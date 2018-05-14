@@ -2,7 +2,7 @@
 title: Skinned Mesh Animations
 layout: post
 subtitle: We're finally here
-category: computer_graphics, animation_programming, graphics_programming
+category: animation_programming
 tags: [Animation Programming, Graphics Programming, Computer Physics, OpenGL]
 excerpt: This course has been a long and demanding journey, but we are finally coming to a topic that I have been waiting since the beginning. In fact, this topic drove me to this program at the first place, as I have a background in character animations. The interesting thing with my animation skills however is that I was always trying to understand how the animation itself worked. Like how the key-frames (discreet values) could produce a smooth movement? What a bone really was? How exactly the skin of a character could move around by its bones? etc.
 image: /img/2018-02-27/Skinned_Mesh00.png
