@@ -9,7 +9,7 @@ image: /img/2018-04-27/Thumbnail_00.png
 comments: true
 ---
 
-Hi, I'm Jorge Amengol, a fresh graduated student of the [Game Development - Advanced Programming](https://www.fanshawec.ca/programs-and-courses/program/gdp1-game-development-advanced-programming/next-year){:target="_blank"} course at [Fanshawe College](https://www.fanshawec.ca/){:target="_blank"}, Canada. I decided to start this series of posts to register my own progress throughout the course and also to serve as a reference for me on important subjects in the future. Though it is a personal record, you might find the subjects discussed here useful. Feel free to make comments at the end of each post.
+Hi, I'm Jorge Amengol, a fresh graduate student of the [Game Development - Advanced Programming](https://www.fanshawec.ca/programs-and-courses/program/gdp1-game-development-advanced-programming/next-year){:target="_blank"} course at [Fanshawe College](https://www.fanshawec.ca/){:target="_blank"}, Canada. I decided to start this series of posts to register my own progress throughout the program and also serve as a reference for me on important subjects in the future. Though it is a personal record, you might find the subjects discussed here useful. Feel free to make comments at the end of each post.
 
 ### Introduction
 
@@ -56,7 +56,7 @@ Searching in the Asset Store for some kind of “Environment” solution I found
 ![Make Your Fantasy Game – Lite]({{ "/img/2018-04-27/Unity01.jpg" | absolute_url }})
 <sup>Make Your Fantasy Game – Lite</sup>
 
-As you can see, the scene looks gorgeous. However, this is a screen shot from the Unity Engine. Much work had yet to be done in my Engine to get similar results. At that point my Engine didn’t have Shadows, Fog, Gama Correction, Glow, Bump/Normal maps, multilayer textures and even the specular wasn’t looking right. Everything that was missing had to be implemented, together with the Game Jam, in about two weeks. This might sound like a lot of time to a Professional Graphics Programmer, but keep in mind that less than 8 month ago we were learning how to [draw a simple triangle on screen]({% post_url 2017-09-08-my-first-opengl %}). For a noobie, this is really too much stuff I guarantee. 
+As you can see, the scene looks gorgeous. However, this is a screen shot from the Unity Engine. Much work had yet to be done in my Engine to get similar results. At that point my Engine didn’t have Shadows, Fog, Gama Correction, Glow, Bump/Normal maps, multilayer textures and even the specular wasn’t looking right. Everything that was missing had to be implemented, together with the Game Jam, in about two weeks. This might sound like a lot of time to a Professional Graphics Programmer, but keep in mind that less than 8 month ago we were learning how to [draw a simple triangle on screen]({% post_url 2017-09-08-my-first-opengl %}). For a newbie, this is really too much stuff I guarantee. 
 
 ### A Graphics Programmer is also an Artist
 I don’t like the line that people usually draw between Programmer and Artists. Of course, most of the time each one will be concentrated in his/her area of expertise, but in the Game Industry, an Artist that knows nothing about programming and vice-versa has some limitations that can impair a lot of his work to achieve higher levels. In my case I was blessed to be able to have worked as an Artist before for some time, doing Flight Simulator airports and animations. So, building my Game Jam scene and the attention to how the things were blending together visually were actually very enjoyable.
@@ -106,9 +106,9 @@ After some work finding a set of animation for him, I manage to put it all in th
 ![Knight model in my Game Engine]({{ "/img/2018-04-27/Engine03.png" | absolute_url }})
 <sup>Knight model in my Game Engine</sup>
 
-However, all the props were gone, as they were also different meshes and at that point my Engine only loaded the first mesh in the model (Something fixed later on of course). Also, I had different plans for the props: attach them and make them fall by the Bullet Physics Engine (integrated in my Engine).
+However, all the props were gone, as they were also different meshes and at that point my Engine only loaded the first mesh in the model (Something fixed later on of course). <a name="dncycle"></a> Also, I had different plans for the props: attach them and make them fall by the Bullet Physics Engine (integrated in my Engine).
 
-Ok, time to move to my first “Technical Aspect” of the list...
+Ok, time to move to my first “Technical Aspect” of the list... 
 
 ### Day/Night Cycle and Environment Control
 
