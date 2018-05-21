@@ -6,7 +6,7 @@ comments: true
 ---
 How do we start anything in the software developer world? Ok, you already saw the tittle, so here it is. But instead of just make a meaningless Hello World post, I want to talk more about how easy it can be to get a site like this up and running in a short period of time.
 
-You may or may not have notice it, but this site is a Gitgub Page. Yep, besides being this wonderful collaboration tool, you can also host your page on Github, and the better is that it is free.
+You may or may not have notice it, but this site is a GitHub Page. Yep, besides being this wonderful collaboration tool, you can also host your page on Github, and the better is that it is free.
 
 As a software developer you might know that having a website to propagate and concentrate your work is one of the most important key features for success is this demanding industry. However, if you like me are not a web designer, things can become really complicated pretty soon and if you want to use your "free" time wisely, you don't want to spend too much time just trying to get a simple blog/portfolio page running.
 
