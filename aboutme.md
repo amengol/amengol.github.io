@@ -16,7 +16,7 @@ It was an amazing journey and I'm still impressed by the number of things I've l
 
 After that and for my surprise I've receive a job offer to work as a Software Engineer developing code for an Aerospatial Company to work with an aviation software and I've been doing that since then, which has been an amazing experience by the way as I've got to do everything I'm passionate about in the same place. 
 
-Please take a look at my [Portfolio]({{ site.baseurl }}{% link Projects.md %}) for all relevant projects I developed during the Fanshawe Course. And please feeel free to connect with me with me: https://www.linkedin.com/in/amengol/
+Please take a look at my [Portfolio]({{ site.baseurl }}{% link Projects.md %}) for all relevant projects I developed during the Fanshawe Course. And please feel free to connect with me with me through my LinkedIn: [linkedin.com/in/amengol/](https://www.linkedin.com/in/amengol/)
 
 Jorge Amengol.
 
