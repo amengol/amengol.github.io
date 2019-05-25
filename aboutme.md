@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Passionate Graphics Programmer
+subtitle: Passionate Developer
 ---
 
 ![Profile1]({{ "/img/aboutme/Profile1.jpg" | absolute_url }})
