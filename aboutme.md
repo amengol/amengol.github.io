@@ -6,7 +6,9 @@ subtitle: Passionate Developer
 
 ![Profile1]({{ "/img/aboutme/Profile1.jpg" | absolute_url }})
 
-Hi, my name is Jorge Amengol. I'm a Computer Scientist and Aviation enthusiast.  Computers and the love for flying has motived most of the things I have accomplished in life, like becoming a Software Engineer, a Graphics Programmer, a Flight Simulator Scenery Designer and Animator and even a Pilot.
+Hi, my name is Jorge Amengol. I'm a Computer Scientist and Aviation enthusiast.  
+
+Computers and the love for flying has motived most of the things I have accomplished in life, like becoming a Software Engineer, a Graphics Programmer, a Flight Simulator Scenery Developer and even a Pilot.
 
 This blog is dedicated to one of my passions: Computer Graphics
 
